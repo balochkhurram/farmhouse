@@ -1,0 +1,74 @@
+.section1{
+  background-image: url("/public/assestimage/Banner2Image/about-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner2{
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+.banner2 .leftbanner{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  /* background-color: #b4d539; */
+}
+.banner2 .leftbanner p{
+  font-size: 1.6vw;
+  color: #777;
+}
+.banner2 .leftbanner span{
+  color: #bf8f00;
+    font-weight: 700;
+}
+.banner2 .leftbanner .line {
+  display: flex;
+  gap: 10px;
+}
+.banner2 .leftbanner .line .onediv{
+  width: 50%;
+  height: 3px;
+  background-color:#bf8f00 ;
+} 
+.banner2 .leftbanner .line .twodiv{
+  width: 10%;
+  height: 3px;
+  background-color: black;
+}
+.banner2 .rightbanner {
+  width: 55%;
+}
+.banner2 .rightbanner .imagebanner{
+  width: 100%;
+  height: 100%;
+}
+.banner2 .rightbanner img{
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+@media only screen and (max-width: 917px) {
+  .banner2{
+    flex-direction: column-reverse;
+    gap: 20px;
+    
+  }
+  .banner2 .leftbanner{
+   
+  
+    width: 100%;
+    /* background-color: #b4d539; */
+  }
+  .banner2 .leftbanner img{
+    width: 50%;
+  }
+  .banner2 .leftbanner p{
+    font-size: 3.2vw;
+    color: #777;
+  }
+  .banner2 .rightbanner {
+    width: 100%;
+  }
+}

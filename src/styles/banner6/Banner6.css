@@ -1,0 +1,183 @@
+.backgroundimage{
+  
+  background-image: url("/public/assestimage/banner5image/price-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner6{
+  padding-top: 20px;
+ 
+}
+.banner6 .textbanner h1 {
+
+  color: white;
+ text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3;
+ 
+  
+}
+.banner6 .textbanner h1 span:nth-child(1){
+  color: #b4d539;
+}
+.banner6 .textbanner h1 span{
+  color: #bf8f00;
+    font-weight: 700;
+}
+.banner6 .textbanner .lines{
+ 
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.banner6 .textbanner .lines .oneline{
+  width:17%;
+  height: 4px;
+  background-color: #b4d539;
+}
+.banner6 .textbanner .lines .twoline{
+  width: 2%;
+  height: 4px;
+  background-color:white;
+}
+.banner6 .cards{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+ padding: 50px 0px;
+  
+}
+.banner6 .cards .card{
+  
+  width:86%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #000000b6;
+  
+} 
+.banner6 .cards .card .pricefeature
+{
+  
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #b3d539ad;
+align-items: center;
+  font-size: 0.84vw;
+text-transform: uppercase;
+}
+.banner6 .cards .card .pricefeature p{
+
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+.banner6 .cards .card  .pricebody{
+ 
+ display: flex;
+ gap: 10px;
+ justify-content: center;
+ flex-direction: column;
+  padding: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+ 
+}
+.banner6 .cards .card hr{
+  width: 78%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background-color: #d8d3d3;
+}
+
+
+
+.banner6 .cards .card .pricebody h3{
+  font-size: 1.4vw;
+  color: #b4d539;
+  font-weight: 100;
+}
+.banner6 .cards .card .pricebody p{
+  color: white;
+  font-size: 1.9vw;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1118px) {
+  .banner6 .textbanner h1 {
+    
+      font-size: 2.4vw;
+      
+    }
+}
+@media only screen and (max-width: 757px) {
+  .banner6 .textbanner h1 {
+    
+    font-size: 3vw;
+    
+  }
+  .banner6 .cards{
+   
+    grid-template-columns: repeat(1,1fr);
+     justify-items: center;
+    grid-row-gap: 40px;
+   }
+   .banner6 .cards .card{
+  
+    width:70%; 
+  } 
+  .banner6 .cards .card .pricefeature
+{
+  
+  
+  
+  font-size: 1.4vw;
+
+}
+.banner6 .cards .card .pricefeature p{
+
+  
+  font-size: 2.5vw;
+  
+}
+.banner6 .cards .card .pricebody h3{
+  font-size: 2vw;
+  
+}
+.banner6 .cards .card .pricebody p{
+ 
+  font-size: 3vw;
+
+}
+}
+@media only screen and (max-width: 441px) {
+  .banner6 .textbanner h1 {
+    
+    font-size: 3.5vw;
+    
+  }
+  .banner6 .cards .card .pricefeature
+{
+  
+  
+  
+  font-size: 1.5vw;
+
+}
+.banner6 .cards .card .pricefeature p{
+
+  
+  font-size: 3vw;
+  
+}
+.banner6 .cards .card .pricebody h3{
+  font-size: 3vw;
+  
+}
+.banner6 .cards .card .pricebody p{
+ 
+  font-size: 4vw;
+
+}
+}

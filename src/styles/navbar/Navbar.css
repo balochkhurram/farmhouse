@@ -1,0 +1,121 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+ padding: 10px 130px 10px 40px;
+}
+.navbar .menu{
+  display: none;
+  color: #b4d539;
+  font-size: 35px;
+  border: none;
+  outline: none;
+}
+.navbar .logo{
+  width: 350px;
+}
+.navbar .logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navbar .link{
+  position: relative;
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  list-style-type: none;
+}
+.navbar .link li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  transition: all 0.3s ease-in-out;
+ 
+}
+.navbar .link li a:hover{
+  color: #bf8f00;
+}
+.navbar .link li  .active{
+  color: #bf8f00;
+  border-bottom: 1px solid  #bf8f00;
+ display: flex;
+ padding-bottom: 2px;
+
+}
+
+.navbar .button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #bf8f00;
+ color: white;
+  width: 200px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  font-size: 17px;
+
+}
+.navbar .button a {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+.navbar .button:hover a{
+  color: black;
+}
+.navbar .button:hover{
+  background-color:  #bf8f00;
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1220px) {
+  .navbar  .menu{
+    display: block;
+    cursor: pointer;
+  }
+  .navbar .logo{
+   margin: 0 auto;
+  }
+  .navbar .link {
+   display: none;
+   
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+   padding: 15px 20px 10px 40px;
+  
+  
+  }
+}
+@media only screen and (max-width: 976px) {
+  .navbar .button {
+    width: auto;
+  }
+  .navbar .button p{
+    display: none;
+  
+  }
+}
+@media only screen and (max-width: 648px) {
+  .navbar{
+  align-items: center;
+   padding: 10px 20px 10px 20px;
+  }
+  .navbar .logo{
+    width: 50%;
+  }
+  .navbar .button svg {
+    font-size: 14px;
+  }
+  .navbar .menu{
+  
+    font-size: 30px
+  }
+}

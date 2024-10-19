@@ -1,0 +1,145 @@
+.banner5{
+  padding-top: 20px;
+}
+.banner5 .textbanner h1 {
+ text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3;
+  
+ 
+  
+}
+.banner5 .textbanner h1 span{
+  color: #b4d539;
+}
+.banner5 .textbanner .lines{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.banner5 .textbanner .lines .oneline{
+  width:20%;
+  height: 4px;
+  background-color: #b4d539;
+}
+.banner5 .textbanner .lines .twoline{
+  width: 2%;
+  height: 4px;
+  background-color:black;
+}
+.banner5 .cards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+.banner5 .cards .card{
+  padding:40px;
+  width:50%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 30px;
+  background-color: white;
+} 
+.banner5 .cards .card .imagebanner {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ align-items: center;
+}
+.banner5 .cards .card .imagebanner img{
+  width: 80%;
+  height: 80%;
+}
+.banner5 .cards .card h2{
+  font-size: 1.9vw;
+}
+.banner5 .cardbody{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top:20px;
+  font-size: 1vw;
+  text-align: justify;
+  text-align-last: center;
+}
+.banner5 .cardbody .lines{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.banner5 .cardbody .lines .oneline{
+  width: 30%;
+  height: 3px ;
+  background-color: #b4d539;
+}
+.banner5 .cardbody .lines .twoline{
+  width: 3%;
+  height: 3px ;
+  background-color:black; 
+}
+@media only screen and (max-width: 1336px) {
+  .banner5 .cards .card .imagebanner img{
+    width: 50%;
+    height: 100%;
+  }
+  .banner5 .cardbody{
+    font-size: 1.4vw;
+  }
+  
+}
+@media only screen and (max-width: 995px) {
+ 
+  .banner5 .textbanner h1 {
+    font-size: 3vw;
+    
+     
+   }
+   
+  
+}
+@media only screen and (max-width: 787px) {
+  .banner5 .cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner5 .cards .card{
+    padding:40px 0pxpx;
+    width:90%;
+    
+  } 
+  .banner5 .cards .card h2{
+    font-size: 3vw;
+  }
+  .banner5 .cardbody{
+   
+    font-size: 2.3vw;
+   
+  }
+  
+  
+}
+@media only screen and (max-width: 497px) {
+  .sectionbanner5{
+    width: 90%;
+  }
+  .banner5 .cards .card h2{
+    font-size: 3.8vw;
+  }
+  .banner5 .cardbody{
+   
+    font-size: 3vw;
+   
+  }
+  .banner5 .cards .card{
+   
+    width:100%;
+    
+  } 
+  .banner5 .textbanner h1 {
+   font-size: 3.7vw;  
+   }
+   
+ 
+
+ 
+}
